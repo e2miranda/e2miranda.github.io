@@ -53,7 +53,7 @@
       display: flex;
       align-items: flex-start;
       gap: 30px;
-      flex-wrap: wrap; /* makes it responsive on small screens */
+      flex-wrap: wrap;
     }
 
     .profile-photo {
@@ -65,15 +65,71 @@
       flex-shrink: 0;
     }
 
-    .about-text {
-      flex: 1; /* text takes remaining space */
-      min-width: 200px;
-    }
-
     .about-text p {
       line-height: 1.7;
       font-size: 1.05rem;
       margin-bottom: 16px;
+    }
+
+    /* Education section */
+    .education-section {
+      margin-top: 30px;
+    }
+
+    .education-section h2 {
+      font-size: 1.6rem;
+      color: #0366d6;
+      margin-bottom: 12px;
+    }
+
+    .education-section ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .education-section li {
+      margin-bottom: 12px;
+    }
+
+    .education-section .degree {
+      font-weight: 600;
+    }
+
+    .education-section .details {
+      color: #555;
+    }
+
+    /* Contact section */
+    .contact-section {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .contact-section h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.6rem;
+      color: #0366d6;
+    }
+
+    .contact-section a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
+
+    /* LinkedIn icon */
+    .social-icon {
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
+      margin-top: 4px;
     }
   </style>
 </head>
@@ -94,10 +150,10 @@
 
     <!-- Photo + Text Side by Side -->
     <div class="about-content">
-      <img src="IMG_3939.jpeg" alt="Eleanor Miranda" class="profile-photo">
+      <img src="IMG_3939.jpg" alt="Eleanor Miranda" class="profile-photo">
       <div class="about-text">
         <p>
-          I am an undergraduate student in an accelerated program, completing
+          I am an undergraduate student in a 4+1 accelerated program, completing
           graduate-level coursework alongside my undergraduate studies.
         </p>
         <p>
@@ -110,12 +166,45 @@
           This site serves as a collection of my academic projects, coursework,
           presentations, and papers.
         </p>
+
+        <!-- Education Section -->
+        <div class="education-section">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <span class="degree">Bridgewater State University</span><br>
+              <span class="details">B.S. in Pure Mathematics, Statistics Minor, Data Analytics Certificate</span><br>
+              <span class="details">Member of Pi Mu Epsilon</span><br>
+              <span class="details">Expected Graduation: May 2026</span>
+            </li>
+            <li>
+              <span class="degree">Bridgewater State University – 4+1 MS Program</span><br>
+              <span class="details">M.S. in Mathematics</span><br>
+              <span class="details">Expected Graduation: May 2027</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+          <h2>Connect with Me</h2>
+          <p>
+            <strong>Email:</strong> <a href="elliemir0414@gmail.com">your.email@example.com</a><br>
+            <a href="https://www.linkedin.com/in/eleanor-miranda-0229bb295/" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+            </a><br>
+            <strong>Resume:</strong> <a href="resume.pdf" target="_blank">Download PDF</a>
+          </p>
+        </div>
+
       </div>
     </div>
 
   </div>
 </body>
 </html>
+
+
 
 
 

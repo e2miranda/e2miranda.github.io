@@ -126,10 +126,16 @@
 
     /* LinkedIn icon */
     .social-icon {
-      width: 28px;
-      height: 28px;
+      width: 20px;
+      height: 20px;
       vertical-align: middle;
-      margin-left: 8px;
+      margin-left: 6px;
+      cursor: pointer;
+      transition: fill 0.2s;
+    }
+
+    .linkedin-link:hover svg path {
+      fill: #004182; /* darker blue on hover */
     }
   </style>
 </head>
@@ -191,7 +197,7 @@
           <p>
             <strong>Email:</strong> 
             <a href="mailto:elliemir0414@gmail.com">elliemir0414@gmail.com</a>
-            <a href="https://www.linkedin.com/in/eleanor-miranda-0229bb295/" target="_blank">
+            <a href="https://www.linkedin.com/in/eleanor-miranda-0229bb295/" target="_blank" class="linkedin-link">
               <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path fill="#0A66C2" d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.98h5V24H0V8.98zm7.5 0h4.78v2.06h.07c.67-1.27 2.3-2.61 4.73-2.61 5.05 0 6 3.32 6 7.63V24h-5V16.8c0-1.68-.03-3.85-2.35-3.85-2.36 0-2.72 1.84-2.72 3.73V24h-5V8.98z"/>
               </svg>

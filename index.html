@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Eleanor Miranda | Academic Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      max-width: 900px;
-      margin: 50px auto;
-      padding: 0 20px;
-      line-height: 1.7;
+      background-color: #f6f7f9;
       color: #222;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 24px;
     }
 
     h1 {
-      font-size: 2.6rem;
-      margin-bottom: 20px;
       text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #555;
+      margin-bottom: 50px;
+      font-size: 1.05rem;
     }
 
     h2 {
-      margin-top: 50px;
-      padding-bottom: 8px;
-      border-bottom: 2px solid #ddd;
+      margin-top: 60px;
+      margin-bottom: 14px;
       font-size: 1.7rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    .section-description {
+      color: #555;
+      margin-bottom: 22px;
     }
 
     ul {
       list-style: none;
-      padding-left: 0;
+      padding: 0;
+      margin: 0;
     }
 
     li {
-      margin-bottom: 16px;
+      background: #ffffff;
+      padding: 16px 20px;
+      margin-bottom: 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     }
 
     .project-title {
       font-weight: 600;
       font-size: 1.1rem;
+      margin-bottom: 6px;
+      display: block;
     }
 
     .links a {
-      margin-right: 12px;
+      display: inline-block;
+      margin-right: 14px;
+      font-size: 0.95rem;
       text-decoration: none;
       color: #0366d6;
     }
@@ -53,107 +80,142 @@
     }
 
     footer {
-      margin-top: 60px;
-      font-size: 0.9rem;
-      color: #666;
       text-align: center;
+      margin-top: 80px;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
 
-<h1>Eleanor Miranda</h1>
-<p style="text-align:center;">This site contains my school projects, presentations, and papers.</p>
+    <h1>Eleanor Miranda</h1>
+    <p class="subtitle">
+      Academic portfolio containing coursework, projects, presentations, and papers.
+    </p>
 
-<h2>📊 Data Visualization</h2>
-<ul>
-  <li>
-    <span class="project-title">Broadway Revenue & Attendance Analysis</span>
-    <div class="links">
-      <a href="projects/broadway-analysis.pdf">PDF</a>
-      <a href="https://public.tableau.com/views/final_17660891793480/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Dashboard</a>
-      <a href="https://studentbridgew-my.sharepoint.com/:x:/g/personal/e2miranda_student_bridgew_edu/IQBVoYDjgsIWRY-FesX6WWj0AbFtX70AQ9g3_up391x_cNE?e=ubTSxV" target="_blank">Excel Dashboard</a>
-    </div>
-  </li>
-  <li>
-   <span class="project-title">Employee Data (Midterm Project)</span>
-    <div class="links">
-      <a href="https://public.tableau.com/app/profile/eleanor.miranda/viz/shared/8G5M64T9T" target="_blank">Tableau Dashboard</a>
-    </div>
-  </li>
-  <li>
-   <span class="project-title">Global Cybersecurity Threats (2015-2024)</span>
-    <div class="links">
-      <a href="https://public.tableau.com/app/profile/eleanor.miranda/viz/Book1_17660160772330/Dashboard1" target="_blank">Tableau Dashboard</a>
-      <a href="https://studentbridgew-my.sharepoint.com/:x:/g/personal/e2miranda_student_bridgew_edu/IQC52tw0dlJISYXLReuRWFMLAb1NUoPM6osoaPlLmpTYUJ4?e=KcF9iw" target="_blank">Excel Dashboard</a>
-    </div>
-  </li>
-</ul>
+    <!-- DATA VISUALIZATION -->
+    <h2>📊 Data Visualization</h2>
+    <p class="section-description">
+      Projects using Tableau, Excel, and data-driven analysis.
+    </p>
 
-<h2>🏎️ Formula 1</h2>
-<ul>
-  <li>
-    <span class="project-title">Formula 1 Performance Analysis (2023–2024)</span>
-    <div class="links">
-      <a href="projects/f1-paper.pdf">PDF</a>
-    </div>
-  </li>
-  <li>
-    <span class="project-title">Formula 1 2026 Data Analysis</span>
-    <div class="links">
-       <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFKVcs_Y0i2kOy3HgPFuTBfZ9ijHTx3M61k6oYxhgXnNQ5vyx3GWETkOcBAPeEs_bId-2T6Kb0qHKf/pubhtml" target="_blank">View Sheet</a>
-    </div>
-  </li>
-</ul>
+    <ul>
+      <li>
+        <span class="project-title">Broadway Revenue & Attendance Analysis</span>
+        <div class="links">
+          <a href="projects/broadway-analysis.pdf">Paper (PDF)</a>
+          <a href="https://public.tableau.com/views/final_17660891793480/Dashboard1?:display_count=n&:origin=viz_share_link" target="_blank">Tableau Dashboard</a>
+          <a href="https://studentbridgew-my.sharepoint.com/:x:/g/personal/e2miranda_student_bridgew_edu/IQBVoYDjgsIWRY-FesX6WWj0AbFtX70AQ9g3_up391x_cNE?e=ubTSxV" target="_blank">Excel Dashboard</a>
+        </div>
+      </li>
 
-<h2>📐 Math</h2>
-<ul>
-  <li>
-    <span class="project-title">Intro to Analysis II Proof Portfolio</span>
-    <div class="links">
-      <a href="projects/analysis-portfolio.pdf">PDF</a>
-    </div>
-  </li>
-  <li>
-    <span class="project-title">Number Theory Proof Portfolio</span>
-    <div class="links">
-      <a href="projects/number-theory-portfolio.pdf">PDF</a>
-    </div>
-  </li>
-  <li>
-    <span class="project-title">The Hill Cipher (Poster)</span>
-    <div class="links">
-      <a href="projects/MYS.pdf">PDF</a>
-    </div>
-  </li>
-  <li>
-    <span class="project-title">The Hill Cipher (Paper)</span>
-    <div class="links">
-      <a href="projects/project3.pdf">PDF</a>
-    </div>
-  </li>
-  <li>
-    <span class="project-title">Markov Chains & Monopoly</span>
-    <div class="links">
-      <a href="projects/markov-chains-monopoly.pdf">PDF</a>
-    </div>
-  </li>
-</ul>
+      <li>
+        <span class="project-title">Employee Data (Midterm Project)</span>
+        <div class="links">
+          <a href="https://public.tableau.com/app/profile/eleanor.miranda/viz/shared/8G5M64T9T" target="_blank">Tableau Dashboard</a>
+        </div>
+      </li>
 
-<h2>⚛️ Physics</h2>
-<ul>
-  <li>
-    <span class="project-title">Snell’s Law Lab</span>
-    <div class="links">
-      <a href="projects/final-lab-report.pdf">PDF</a>
-    </div>
-  </li>
-</ul>
+      <li>
+        <span class="project-title">Global Cybersecurity Threats (2015–2024)</span>
+        <div class="links">
+          <a href="https://public.tableau.com/app/profile/eleanor.miranda/viz/Book1_17660160772330/Dashboard1" target="_blank">Tableau Dashboard</a>
+          <a href="https://studentbridgew-my.sharepoint.com/:x:/g/personal/e2miranda_student_bridgew_edu/IQC52tw0dlJISYXLReuRWFMLAb1NUoPM6osoaPlLmpTYUJ4?e=KcF9iw" target="_blank">Excel Dashboard</a>
+        </div>
+      </li>
+    </ul>
 
-<footer>
-  © 2026 Eleanor Miranda
-</footer>
+    <!-- FORMULA 1 -->
+    <h2>🏎️ Formula 1</h2>
+    <p class="section-description">
+      Statistical and performance-based analysis of Formula 1 data.
+    </p>
 
+    <ul>
+      <li>
+        <span class="project-title">Formula 1 Performance Analysis (2023–2024)</span>
+        <div class="links">
+          <a href="projects/f1-paper.pdf">Paper (PDF)</a>
+        </div>
+      </li>
+
+      <li>
+        <span class="project-title">Formula 1 2026 Data Analysis</span>
+        <div class="links">
+          <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFKVcs_Y0i2kOy3HgPFuTBfZ9ijHTx3M61k6oYxhgXnNQ5vyx3GWETkOcBAPeEs_bId-2T6Kb0qHKf/pubhtml" target="_blank">
+            Google Sheets
+          </a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- MATH -->
+    <h2>📐 Mathematics</h2>
+    <p class="section-description">
+      Proof-based coursework in analysis, number theory, and cryptography.
+    </p>
+
+    <ul>
+      <li>
+        <span class="project-title">Intro to Analysis II Proof Portfolio</span>
+        <div class="links">
+          <a href="projects/analysis-portfolio.pdf">Portfolio (PDF)</a>
+        </div>
+      </li>
+
+      <li>
+        <span class="project-title">Number Theory Proof Portfolio</span>
+        <div class="links">
+          <a href="projects/number-theory-portfolio.pdf">Portfolio (PDF)</a>
+        </div>
+      </li>
+
+      <li>
+        <span class="project-title">The Hill Cipher — Poster</span>
+        <div class="links">
+          <a href="projects/MYS.pdf">Poster (PDF)</a>
+        </div>
+      </li>
+
+      <li>
+        <span class="project-title">The Hill Cipher — Paper</span>
+        <div class="links">
+          <a href="projects/project3.pdf">Paper (PDF)</a>
+        </div>
+      </li>
+
+      <li>
+        <span class="project-title">Markov Chains & Monopoly</span>
+        <div class="links">
+          <a href="projects/markov-chains-monopoly.pdf">Paper (PDF)</a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- PHYSICS -->
+    <h2>⚛️ Physics</h2>
+    <p class="section-description">
+      Laboratory-based physics coursework.
+    </p>
+
+    <ul>
+      <li>
+        <span class="project-title">Snell’s Law Lab</span>
+        <div class="links">
+          <a href="projects/final-lab-report.pdf">Lab Report (PDF)</a>
+        </div>
+      </li>
+    </ul>
+
+    <footer>
+      © Eleanor Miranda
+    </footer>
+
+  </div>
 </body>
 </html>
+
 
